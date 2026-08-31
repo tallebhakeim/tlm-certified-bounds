@@ -1,0 +1,25 @@
+{
+ "title": "Certified bounds for the transmission-line-matrix method: reference implementation",
+ "upload_type": "software",
+ "description": "<p>Reference implementation accompanying the paper <em>A Certified Transmission-Line-Matrix Method for Elliptic Field Problems, and Why the Certificate Fails on Approximated Geometry</em>.</p><p>The code realises a Prager-Synge complementary pair with the two dual TLM diffusion networks, so that a passive scattering solver returns a guaranteed two-sided bound on a quantity of interest, and it reproduces every number and figure of the paper: two- and three-dimensional validation, the effectivity index, the contrast and geometry sweeps, the non-circular benchmark against a dual discrete-geometric solver, the geometric-error experiments, and the certified pad-to-substrate capacitance extraction on a package model.</p><p>All source files are released under the MIT licence.</p>",
+ "license": "MIT",
+ "access_right": "open",
+ "creators": [
+  {
+   "name": "Talleb, Hakeim",
+   "affiliation": "Sorbonne Universite, CNRS, Laboratoire de Genie Electrique et Electronique de Paris (GeePs), Paris, France",
+   "orcid": "0000-0002-2734-6242"
+  }
+ ],
+ "keywords": [
+  "certified bounds",
+  "complementary variational principles",
+  "Prager-Synge",
+  "transmission-line matrix method",
+  "passivity",
+  "capacitance extraction",
+  "geometric error",
+  "computational electromagnetics"
+ ],
+ "language": "eng"
+}

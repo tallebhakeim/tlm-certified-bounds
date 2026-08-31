@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Certified bounds for the transmission-line-matrix method"
+abstract: >-
+  Reference implementation of a guaranteed two-sided error bound for the
+  transmission-line-matrix method, obtained by realising a Prager-Synge
+  complementary pair with the two dual TLM diffusion networks, together with
+  the certified three-dimensional capacitance extraction and the
+  geometric-error experiments reported in the accompanying paper.
+type: software
+authors:
+  - family-names: Talleb
+    given-names: Hakeim
+    affiliation: "Sorbonne Universite, CNRS, Laboratoire de Genie Electrique et Electronique de Paris (GeePs), Paris, France"
+    orcid: "https://orcid.org/0000-0002-2734-6242"
+license: MIT
+repository-code: "https://github.com/tallebhakeim/tlm-certified-bounds"
+keywords:
+  - certified bounds
+  - complementary variational principles
+  - transmission-line matrix method
+  - Prager-Synge
+  - capacitance extraction
+  - geometric error

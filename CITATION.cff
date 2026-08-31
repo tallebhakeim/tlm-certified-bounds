@@ -13,6 +13,10 @@ authors:
     given-names: Hakeim
     affiliation: "Sorbonne Universite, CNRS, Laboratoire de Genie Electrique et Electronique de Paris (GeePs), Paris, France"
     orcid: "https://orcid.org/0000-0002-2734-6242"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22190096
+    description: Concept DOI, always resolving to the latest version
 license: MIT
 repository-code: "https://github.com/tallebhakeim/tlm-certified-bounds"
 keywords:

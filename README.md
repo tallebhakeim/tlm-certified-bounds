@@ -1,5 +1,8 @@
 # Certified bounds for the transmission-line-matrix method
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22190096.svg)](https://doi.org/10.5281/zenodo.22190096)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Reference implementation for the paper
 
 > H. Talleb, *A Certified Transmission-Line-Matrix Method for Elliptic Field Problems,
@@ -90,8 +93,9 @@ self-contained.
 
 ## Citing
 
-See `CITATION.cff`. Please cite the archived release through its concept DOI, which
-always resolves to the latest version, together with the paper.
+See `CITATION.cff`. Cite the archive through its **concept DOI**,
+[10.5281/zenodo.22190096](https://doi.org/10.5281/zenodo.22190096), which always resolves
+to the latest version, together with the paper.
 
 ## Licence
 

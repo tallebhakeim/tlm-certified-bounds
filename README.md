@@ -100,3 +100,13 @@ to the latest version, together with the paper.
 ## Licence
 
 MIT, see `LICENSE`.
+
+## Release 1.1: eddy-current impedance bounds
+
+The directory [`eddy_current/`](eddy_current/) contains the code of *Guaranteed Two-Sided Bounds
+on Eddy-Current Coil Impedance for Any Approximate Field, With a Passive TLM Solver and
+Application to Nondestructive Testing and Induction Tomography* (H. Talleb, submitted to IEEE
+Transactions on Magnetics): guaranteed bounds on the inductance, resistance and mutual
+impedances of eddy-current coils from a Raviart-Thomas equilibrated flux, valid for any
+approximate field, and the certification of every period of a passive TLM time march.
+See [`eddy_current/README.md`](eddy_current/README.md) for the script-by-script reproduction table.

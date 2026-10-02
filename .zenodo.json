@@ -1,7 +1,7 @@
 {
- "title": "Certified bounds for the transmission-line-matrix method: reference implementation",
+ "title": "tlm-certified-bounds: certified transmission-line-matrix bounds for elliptic and eddy-current field problems",
  "upload_type": "software",
- "description": "<p>Reference implementation accompanying the paper <em>A Certified Transmission-Line-Matrix Method for Elliptic Field Problems, and Why the Certificate Fails on Approximated Geometry</em>.</p><p>The code realises a Prager-Synge complementary pair with the two dual TLM diffusion networks, so that a passive scattering solver returns a guaranteed two-sided bound on a quantity of interest, and it reproduces every number and figure of the paper: two- and three-dimensional validation, the effectivity index, the contrast and geometry sweeps, the non-circular benchmark against a dual discrete-geometric solver, the geometric-error experiments, and the certified pad-to-substrate capacitance extraction on a package model.</p><p>All source files are released under the MIT licence.</p>",
+ "description": "<p>Reference implementation accompanying the paper <em>A Certified Transmission-Line-Matrix Method for Elliptic Field Problems, and Why the Certificate Fails on Approximated Geometry</em>.</p><p>The code realises a Prager-Synge complementary pair with the two dual TLM diffusion networks, so that a passive scattering solver returns a guaranteed two-sided bound on a quantity of interest, and it reproduces every number and figure of the paper: two- and three-dimensional validation, the effectivity index, the contrast and geometry sweeps, the non-circular benchmark against a dual discrete-geometric solver, the geometric-error experiments, and the certified pad-to-substrate capacitance extraction on a package model.</p><p>All source files are released under the MIT licence.</p><p>Release 1.1 adds <code>eddy_current/</code>: guaranteed two-sided bounds on the impedance of an eddy-current coil (inductance, resistance and mutual impedances) for any approximate field, from a Raviart-Thomas equilibrated flux, with the certification of every period of a passive TLM time march, accompanying the paper <em>Guaranteed Two-Sided Bounds on Eddy-Current Coil Impedance for Any Approximate Field, With a Passive TLM Solver and Application to Nondestructive Testing and Induction Tomography</em>.</p>",
  "license": "MIT",
  "access_right": "open",
  "creators": [
@@ -19,7 +19,13 @@
   "passivity",
   "capacitance extraction",
   "geometric error",
-  "computational electromagnetics"
+  "computational electromagnetics",
+  "eddy currents",
+  "coil impedance",
+  "eddy-current testing",
+  "magnetic induction tomography",
+  "equilibrated flux"
  ],
- "language": "eng"
+ "language": "eng",
+ "version": "1.1.0"
 }

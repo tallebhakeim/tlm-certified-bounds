@@ -110,3 +110,14 @@ Transactions on Magnetics): guaranteed bounds on the inductance, resistance and 
 impedances of eddy-current coils from a Raviart-Thomas equilibrated flux, valid for any
 approximate field, and the certification of every period of a passive TLM time march.
 See [`eddy_current/README.md`](eddy_current/README.md) for the script-by-script reproduction table.
+
+## Manuscript scripts (`paper_ijnm/`)
+
+The two scripts that produce every number, table and figure of the manuscript submitted to the
+*International Journal of Numerical Modelling* (2026):
+
+```sh
+cd paper_ijnm
+python3 compute_all.py          # ~10 min: results_ijnm.json / .npz (imports ../src; the DGM benchmark is skipped if the DGM engine is absent)
+python3 make_figures_ijnm.py    # figures/Fig1..Fig7 (PNG + TIFF)
+```
